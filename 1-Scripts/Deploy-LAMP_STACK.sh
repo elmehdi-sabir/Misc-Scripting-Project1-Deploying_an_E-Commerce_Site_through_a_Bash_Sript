@@ -2,7 +2,7 @@
 
 
 # dnf update -y
-
+dnf update -y
 
 # Install, start and enable firewalld
 dnf install -y firewalld
@@ -53,8 +53,7 @@ systemctl start httpd
 systemctl enable httpd
 
 ## 4. Download Application Code
-dnf -y install git
-git clone https://github.com/kodekloudhub/learning-app-ecommerce.git /var/www/html
+mv ./2-Website/* /var/www/html/
 
 ## 5. Create and configure an .env file
 touch /var/www/html/.env
