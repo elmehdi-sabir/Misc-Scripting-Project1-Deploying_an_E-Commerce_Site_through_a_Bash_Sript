@@ -144,4 +144,3 @@ Apache's error log is typically available at `/var/log/httpd/error_log`.
 
 This project was developed as part of the **KodeKloud Beginner Scripting course**. The focus of this repository is deployment automation and Linux administration using a sample application from the learning exercise.
 
-Before adding a repository-wide license, verify the reuse terms for the course-provided application and bundled third-party assets.
